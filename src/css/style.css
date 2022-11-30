@@ -21,6 +21,7 @@ body {
 .type-cars {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    border-radius: 14px;
 }
 
 .type-cars h1 {
