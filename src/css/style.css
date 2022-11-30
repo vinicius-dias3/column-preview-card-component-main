@@ -6,9 +6,11 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main {
@@ -28,7 +30,6 @@ body {
 }
 
 .type-cars p {
-    font-family: 'Lexend Deca', sans-serif;
     color: var(--paragraph-color);
     margin-bottom: 4em;
     line-height: 22px;
@@ -114,4 +115,23 @@ body {
 
 .type-cars .luxury > button {
     color: var(--very-dark-cyan);
+}
+
+footer p {
+    margin: 2em;
+    color: hsl(228, 45%, 44%);
+    font-size: 12px;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 3px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: rgb(169, 192, 235);
+    padding: 5px 3px;
 }
