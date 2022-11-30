@@ -1,0 +1,5 @@
+@media (max-width: 375px) {
+   .type-cars .item {
+        padding: 2em 2.8em;
+    }
+}
